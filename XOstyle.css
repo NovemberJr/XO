@@ -1,0 +1,183 @@
+body {
+	margin: 0px;
+	}
+.menu {
+	float: left;
+	width: 20%;
+	height: 100vh;
+	background: #eeeeee;
+	border-right: 1px solid lightgrey;
+	}
+#messageBox {
+	overflow-y: scroll;
+	padding: 4px;
+	font-size: 10pt;
+	width: 90%;
+	height: 300px;
+	background: white;
+	border: 1px solid lightgrey;
+	margin: 4%;
+	}
+	
+#messageBox p {
+	margin: 0;
+	}
+	
+.chat_cross {
+	color: green;
+	}
+	
+.chat_nought {
+	color: red;
+	}
+
+	
+.button {
+	width: auto;
+	padding: 10px;
+	margin: 4%;
+	background: grey;
+	color: white;
+	}
+.workspace {
+	margin: 0;
+	float: left;
+	width: 60%;
+	height: 100vh;
+	display: inline-block;
+	padding-left: 15%;
+
+	}
+.gamefield {
+	width: 95vh;
+	height: 91vh;
+	margin-left: 4%;
+	margin-top: 4%;
+	}
+	
+/* Отключение возможности выделения в теге DIV
+ *    Источник: Devaka.ru	 */
+.noselect {
+	-moz-user-select: none;
+	-webkit-user-select: none;
+	-ms-user-select: none;
+	-o-user-select: none;
+	user-select: none; 
+}
+
+.box:hover {
+	background: #eeeeee;
+	}	  
+#row_1 {
+	height: 30vh;
+	}
+#row_2 {
+	height: 30vh;
+	}
+#row_3 {
+	height: 30vh;
+	}	  	  
+#row_1_1 {
+	float: left;
+	width: 30vh;
+	height: 30vh;
+	border-right: 2px solid #2D2A2F;
+	border-bottom: 2px solid #2D2A2F;
+	position: relative;
+	}
+#row_1_2 {
+	float: left;
+	width: 30vh;
+	height: 100%;
+	border-right: 2px solid #2D2A2F;
+	border-bottom: 2px solid #2D2A2F;
+	position: relative;
+	}
+#row_1_3 {
+	float: left;
+	width: 30vh;
+	height: 100%;
+	border-bottom: 2px solid #2D2A2F;
+	position: relative;
+	}
+#row_2_1 {
+	float: left;
+	width: 30vh;
+	height: 100%;
+	border-right: 2px solid #2D2A2F;
+	border-bottom: 2px solid #2D2A2F;
+	position: relative;
+	}
+#row_2_2 {
+	float: left;
+	width: 30vh;
+	height: 100%;
+	border-right: 2px solid #2D2A2F;
+	border-bottom: 2px solid #2D2A2F;
+	position: relative;
+	}
+#row_2_3 {
+	float: left;
+	width: 30vh;
+	height: 100%;
+	border-bottom: 2px solid #2D2A2F;
+	position: relative;
+	}
+#row_3_1 {
+	float: left;
+	width: 30vh;
+	height: 30vh;
+	border-right: 2px solid #2D2A2F;
+	position: relative;
+	}
+#row_3_2 {
+	float: left;
+	width: 30vh;
+	height: 100%;
+	border-right: 2px solid #2D2A2F;
+	position: relative;
+	}
+#row_3_3 {
+	float: left;
+	width: 30vh;
+	height: 100%;
+	position: relative;
+	}
+
+.cross1 {
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    filter:progid:DXImageTransform.Microsoft.Matrix(M11='0.707', M12='0.707', M21='-0.707', M22='0.707', SizingMethod="auto expand");
+    
+	color: #00DA00;
+	width: 21vh;
+	height: 2.5vh;
+	background-color: #00DA00;
+	margin: 13vh auto 0 auto;
+}
+	
+.cross2 {
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    filter:
+    progid:DXImageTransform.Microsoft.Matrix(M11='0.707', M12='0.707', M21='-0.707', M22='0.707', SizingMethod="auto expand");
+    progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+    
+	color: #00DA00;
+	width: 21vh;
+	height: 2.5vh;
+	background-color: #00DA00;
+	margin: -2.5vh auto 0 auto;
+	}
+	
+	
+.nought {
+	width: 15vh;
+	height: 15vh;
+	border-radius: 50%;
+	border: 2vh solid red;
+	margin: auto;
+	margin-top: 5vh;
+	}
